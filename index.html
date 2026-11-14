@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Fullstack Industrial Training Bio</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 10px;
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border: 3px solid black;
+            overflow: hidden;
+            margin-bottom: 20px;
+        }
+
+        .profile-picture img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        p {
+            line-height: 1.5;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 300px;
+            max-width: 100%;
+            margin-bottom: 25px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+
+        input, select {
+            padding: 8px;
+            margin: 8px 0;
+            max-width: 100%;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 23px;
+            }
+
+            .profile-picture {
+                width: 180px;
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Fullstack Industrial Training Bio</h1>
+
+    <div class="profile-picture">
+        <img src="1000534730.jpg" alt="My Picture">
+    </div>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        This is my Fullstack Industrial Training Bio.
+    </p>
+
+    <h3>Training Timetable</h3>
+
+    <table>
+        <tr>
+            <th>DAY</th>
+            <th>TIME</th>
+        </tr>
+
+        <tr>
+            <td>Monday</td>
+            <td>8am - 10am</td>
+        </tr>
+
+        <tr>
+            <td>Wednesday</td>
+            <td>12pm - 2pm</td>
+        </tr>
+
+        <tr>
+            <td>Friday</td>
+            <td>8am - 10am</td>
+        </tr>
+    </table>
+
+    <h3>Please fill in the information below</h3>
+
+    <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name">
+        <br>
+
+        <label for="matric">Matric:</label><br>
+        <input type="text" id="matric" name="matric">
+        <br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+    </form>
+
+</body>
+</html>
+
